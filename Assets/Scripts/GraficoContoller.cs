@@ -40,11 +40,11 @@ public class GraficoContoller : MonoBehaviour
             return;
         }
 
-        if (energy <= 0) // Verifica si la energía es cero o negativa
+        if (energy <= 0) 
         {
-            rb.velocity = Vector2.zero; // Detén al jugador
-            StartCoroutine(descansaryrecuperacion()); // Entra en modo descanso y recuperación
-            return; // No continúa trasladándose
+            rb.velocity = Vector2.zero; 
+            StartCoroutine(descansaryrecuperacion()); 
+            return;
         }
 
         rb.velocity = dir.normalized * speed * Time.deltaTime;

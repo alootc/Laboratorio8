@@ -297,7 +297,7 @@ MonoBehaviour:
   nodo: {fileID: 596359322}
   speed: 200
   energy: 20
-  maxEnergy: 5
+  maxEnergy: 10
   descansoTiempo: 10
 --- !u!1 &451294600
 GameObject:
